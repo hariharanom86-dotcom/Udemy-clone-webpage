@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid black 1px;
+}
+
+.navbar-s1__title {
+    color: #A435F0;
+}
+
+.navbar-s2 {
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 900px;
+    display: flex;
+    gap: 10px;
+}
+
+.navbar-s2 input {
+    width: 900px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.navbar-s3 {
+    display: flex;
+    gap: 10px;
+}
+
+.catagories {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    border-bottom: solid black 1px;
+}
+
+.catagories p {
+    color: white;
+    background-color: #A435F0;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.sale-image img {
+    width: 100%;
+}
+
+.Recommended {
+    padding: 10px;
+}
+
+.Recommended__containar {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+
+}
+
+.course-card__1 {
+    width: 23%;
+    min-width: 0;
+    padding: 5px;
+}
+
+.course-card__1 img {
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+}
+
+.course-card__2 {
+    width: 23%;
+    min-width: 0;
+    padding: 5px;
+}
+
+.course-card__2 img {
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+}
+
+.course-card__3 {
+    width: 23%;
+    min-width: 0;
+    padding: 5px;
+}
+
+.course-card__3 img {
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+}
+
+.course-card__4 {
+    width: 23%;
+    min-width: 0;
+    padding: 5px;
+}
+
+.course-card__4 img {
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+}
+
+.topics {
+    padding: 10px;
+}
+
+.topics__containar {
+    gap: 10px;
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.topics__containar p {
+    border-radius: 50px;
+    text-align: center;
+    border: solid black 2px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+
+.popular {
+    padding: 10px;
+}
+
+.popular__containar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 10px;
+}
+.footer{
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+.footer-one{
+    display: flex;
+    gap: 10px;
+}
+.footer-one p{
+    margin: 20px;
+}
+.footer-two{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
